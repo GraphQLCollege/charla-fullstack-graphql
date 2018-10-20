@@ -1,0 +1,32 @@
+{
+  "name": "charla-fullstack-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck deck.mdx --webpack webpack.config.js",
+    "test": "echo \"Error: Why would you wanna test a slide deck? Get off my lawn!\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^8.0.4",
+    "file-loader": "^2.0.0",
+    "graphiql": "^0.12.0",
+    "graphql": "^14.0.2",
+    "graphql-playground-react": "^1.7.2",
+    "graphql-tools": "^4.0.2",
+    "image-webpack-loader": "^4.4.0",
+    "matter-js": "^0.14.2",
+    "mdx-deck": "^1.7.7",
+    "react-no-ssr": "^1.1.0",
+    "react-redux": "^5.0.7",
+    "styled-components": "^4.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "mdx-deck-code-surfer": "^0.5.3",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.23.1"
+  }
+}
